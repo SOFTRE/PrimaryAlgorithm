@@ -1,4 +1,4 @@
-package com.xxM.demo01;
+package com.xxM.demo02;
 class Singleton{
     private static Singleton instance;
     private Singleton(){

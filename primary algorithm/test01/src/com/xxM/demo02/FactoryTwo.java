@@ -1,4 +1,4 @@
-package com.xxM.demo01;
+package com.xxM.demo02;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

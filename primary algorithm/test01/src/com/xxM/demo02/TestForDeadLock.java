@@ -1,4 +1,4 @@
-package com.xxM.demo01;
+package com.xxM.demo02;
 class Pen{
     public synchronized void get(Note note){
         System.out.println("我想得到本");

@@ -1,4 +1,4 @@
-package com.xxM.demo01;
+package com.xxM.demo02;
 class Sex{
     public static final int Man_cmd=1;
     public static final int Woman_cmd=2;

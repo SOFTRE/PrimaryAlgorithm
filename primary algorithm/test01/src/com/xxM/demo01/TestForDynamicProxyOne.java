@@ -1,4 +1,4 @@
-package com.xxM.demo;
+package com.xxM.demo01;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

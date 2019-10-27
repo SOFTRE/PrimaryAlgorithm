@@ -1,4 +1,4 @@
-package com.xxM.demo01;
+package com.xxM.demo02;
 abstract class Action{
     public static final int EAT=0;
     public static final int SLEEP=1;

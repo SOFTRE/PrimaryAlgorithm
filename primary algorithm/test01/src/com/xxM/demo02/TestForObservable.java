@@ -1,4 +1,4 @@
-package com.xxM.demo01;
+package com.xxM.demo02;
 
 import java.util.Observable;
 import java.util.Observer;

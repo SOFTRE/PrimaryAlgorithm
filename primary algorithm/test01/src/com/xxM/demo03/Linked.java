@@ -1,4 +1,4 @@
-package com.xxM.demo01;
+package com.xxM.demo03;
 class Link {
     //不想让内部类产生实例化对象，即只想内部类被外部类使用。
     private class Node {

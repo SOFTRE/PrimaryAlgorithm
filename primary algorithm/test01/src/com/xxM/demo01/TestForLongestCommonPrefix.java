@@ -1,4 +1,4 @@
-package com.xxM.demo;
+package com.xxM.demo01;
 
 /**
  * @Program: IntelliJ IDEA test
@@ -28,8 +28,8 @@ public class TestForLongestCommonPrefix {
         }
         StringBuffer res = new StringBuffer();
         for (int i = 0; i < min_length; i++) {
-            for (int j = 1; j < strs.length; j++) {
-                if (strs[j].charAt(i) != strs[j - 1].charAt(i)) {
+            for (int j = i; j < strs.length-1; j++) {
+                if (strs[j].charAt(i) != strs[j + 1].charAt(i)) {
                     return res.toString();
                 }
             }

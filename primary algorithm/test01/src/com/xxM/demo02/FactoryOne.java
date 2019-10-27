@@ -1,4 +1,4 @@
-package com.xxM.demo01;
+package com.xxM.demo02;
 interface IFruits{
     /**
      * 吃操作
