@@ -56,8 +56,8 @@ class Factory1 {
  */
 public class ProxyOne {
     public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
-        ISubject iSubject = Factory1.getInstance("com.itheima.demo01.ProxySubject",
-                "com.itheima.demo01.RealSubject");
+        ISubject iSubject = Factory1.getInstance("com.xxM.demo01.ProxySubject",
+                "com.xxM.demo01.RealSubject");
         iSubject.save();
     }
 }
