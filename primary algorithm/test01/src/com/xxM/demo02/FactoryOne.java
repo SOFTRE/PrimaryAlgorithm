@@ -45,11 +45,11 @@ class Print implements IMessage{
  */
 public class FactoryOne {
     public static void main(String[] args) throws IllegalAccessException, InstantiationException, ClassNotFoundException {
-        IFruits iFruits=Factory.getInstance("com.itheima.demo01.Apple");
+        IFruits iFruits=Factory.getInstance("com.xxM.demo01.Apple");
         iFruits.eat();
-        IFruits iFruits1=Factory.getInstance("com.itheima.demo01.Orange");
+        IFruits iFruits1=Factory.getInstance("com.xxM.demo01.Orange");
         iFruits1.eat();
-        IMessage iMessage=Factory.getInstance("com.itheima.demo01.Print");
+        IMessage iMessage=Factory.getInstance("com.xxM.demo01.Print");
         iMessage.print();
 
     }
