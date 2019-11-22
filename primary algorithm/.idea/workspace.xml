@@ -11,6 +11,20 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -48,10 +62,11 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyProjects\test\test01\src\com\xxM\demo01" />
       <recent name="D:\MyProjects\test\test01\src\com\xxM\demo" />
     </key>
   </component>
@@ -67,13 +82,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestForLongestCommonPrefix">
-    <configuration name="TestForByteCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xxM.demo.TestForByteCompare" />
+  <component name="RunManager" selected="Application.TestForPairOfParentheses">
+    <configuration name="TestForBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xxM.demo03.TestForBinaryTree" />
       <module name="test01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xxM.demo.*" />
+          <option name="PATTERN" value="com.xxM.demo03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestForLongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xxM.demo.TestForLongestCommonPrefix" />
+    <configuration name="TestForPairOfParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xxM.demo01.TestForPairOfParentheses" />
       <module name="test01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xxM.demo.*" />
+          <option name="PATTERN" value="com.xxM.demo01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestForNumber1000" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xxM.demo.TestForNumber1000" />
+    <configuration name="TestForSomeOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xxM.demo01.TestForSomeOne" />
       <module name="test01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xxM.demo.*" />
+          <option name="PATTERN" value="com.xxM.demo01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestForRemoveTheNumberFromTheString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xxM.demo.TestForRemoveTheNumberFromTheString" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xxM.demo01.test" />
       <module name="test01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xxM.demo.*" />
+          <option name="PATTERN" value="com.xxM.demo01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestForThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xxM.demo.TestForThread" />
+    <configuration name="test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xxM.demo01.test01" />
       <module name="test01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xxM.demo.*" />
+          <option name="PATTERN" value="com.xxM.demo01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,13 +223,16 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestForLongestCommonPrefix" />
-        <item itemvalue="Application.TestForRemoveTheNumberFromTheString" />
-        <item itemvalue="Application.TestForNumber1000" />
-        <item itemvalue="Application.TestForThread" />
-        <item itemvalue="Application.TestForByteCompare" />
+        <item itemvalue="Application.TestForPairOfParentheses" />
+        <item itemvalue="Application.TestForSomeOne" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.TestForBinaryTree" />
+        <item itemvalue="Application.test01" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -242,7 +260,31 @@
       <workItem from="1571325988738" duration="26000" />
       <workItem from="1571643790450" duration="5046000" />
       <workItem from="1571755318208" duration="2800000" />
-      <workItem from="1572018827245" duration="573000" />
+      <workItem from="1572018827245" duration="885000" />
+      <workItem from="1572183317849" duration="6151000" />
+      <workItem from="1572833402752" duration="4268000" />
+      <workItem from="1572837748898" duration="1745000" />
+      <workItem from="1572868487029" duration="23000" />
+      <workItem from="1572923398792" duration="1531000" />
+      <workItem from="1572946872937" duration="3863000" />
+      <workItem from="1572953509250" duration="16000" />
+      <workItem from="1573012033801" duration="158000" />
+      <workItem from="1573086922751" duration="12632000" />
+      <workItem from="1573108004641" duration="1177000" />
+      <workItem from="1573134015116" duration="1867000" />
+      <workItem from="1573173124435" duration="1931000" />
+      <workItem from="1573905142011" duration="3740000" />
+      <workItem from="1573911343457" duration="3654000" />
+      <workItem from="1573951757096" duration="10131000" />
+      <workItem from="1573965155085" duration="516000" />
+      <workItem from="1573990326806" duration="11000" />
+      <workItem from="1574041316818" duration="8323000" />
+      <workItem from="1574059183361" duration="7231000" />
+      <workItem from="1574087404971" duration="2996000" />
+      <workItem from="1574145348035" duration="211000" />
+      <workItem from="1574248486145" duration="839000" />
+      <workItem from="1574306310306" duration="607000" />
+      <workItem from="1574433274888" duration="4044000" />
     </task>
     <servers />
   </component>

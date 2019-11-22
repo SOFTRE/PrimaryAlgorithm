@@ -38,7 +38,7 @@ class Factory2{
  */
 public class FactoryTwo {
     public static void main(String[] args) throws InstantiationException, IllegalAccessException {
-        IFruit2 fruit2=Factory2.getInstance();
+        IFruit2 fruit2= Factory2.getInstance();
         fruit2.eat();
     }
 }

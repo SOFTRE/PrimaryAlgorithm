@@ -1,6 +1,6 @@
 import com.xxm.demoClassForProxy.AccountDao;
 import com.xxm.demoClassForProxy.impl.AccountDaoImpl;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
